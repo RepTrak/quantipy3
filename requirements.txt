@@ -1,7 +1,7 @@
 scipy
 numpy
 pandas
-ftfy==5.5.1
+ftfy
 xmltodict
 lxml
 xlsxwriter
