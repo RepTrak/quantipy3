@@ -1502,7 +1502,7 @@ def hmerge(dataset_left, dataset_right, on=None, left_on=None, right_on=None,
     for ds_right in dataset_right:
         meta_right = copy.deepcopy(ds_right[0])
         data_right = ds_right[1].copy()
-        slicer = data_right[right_on].isin(data_left[left_on].values.tolist())
+        slicer = data_right[right_on].isin(data_left[left_on].values)
         data_right = data_right.loc[slicer, :]
 
         if verbose:
