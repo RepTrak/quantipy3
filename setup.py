@@ -3,9 +3,9 @@
 import sys
 from setuptools import setup, find_packages
 
-versions = dict(numpy='1.20.3',
-                pandas='1.3.5',
-                pyreadstat='1.1.6')
+versions = dict(numpy,
+                pandas,
+                pyreadstat)
 
 precisions = dict(numpy='==',
                   scipy='==',
