@@ -7,10 +7,8 @@ versions = dict(numpy='1.20.3',
                 pandas='1.3.5',
                 pyreadstat='1.1.6')
 
-precisions = dict(numpy='==',
-                  scipy='==',
-                  pandas='==',
-                  ftfy='==',
+precisions = dict(numpy='>=',
+                  pandas='>=',
                   pyreadstat='==')
 
 libs = ['numpy',
