@@ -9,7 +9,7 @@ import copy
 
 from operator import lt, le, eq, ne, ge, gt
 
-from pandas.core.index import Index
+from pandas.core.indexes.api import Index
 __index_symbol__ = {
     Index.union: ',',
     Index.intersection: '&',
